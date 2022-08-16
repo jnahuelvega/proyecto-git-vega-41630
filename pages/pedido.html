@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<header class="formulario-cv">
+    <nav class="nav-contacto">
+        <a href="../index.html">Inicio</a>
+        <a href="./Productos.html">Productos</a>
+        <a href="./mapa.html">¿Dónde Encontrarnos?</a>
+        <a href="./formulario.html">Contacto</a>
+</nav>
+</header>
+<body class="body-formulario">
+    <section class="formulario-contenido">
+        <h4>Hacer pedido</h4>
+        <div class="galeria-pedido"> 
+            <label for="tipo-pedido">¿Que producto buscas?</label>
+            <select class="controls" name="tipo-pedido" id="tipo-pedido">
+
+                <option value="pastafrolas">Pastafrolas</option>
+                <option value="sandwich">Sandwichs de Miga</option>
+                <option value="churros">Churros</option>
+                <option value="croissants">Croissants</option>
+
+            </select>
+        </div>
+        <input class="controls" type="number" max="10" min="1" name="cantidad-pedido" id="cantidad-pedido" placeholder="¿Cuantas docenas necesitas?">
+        <input class="controls" type="email" name="correo" id="contenedor-sobre-nosotros" placeholder="Ingrese su EMail">
+        <input class="controls" type="number" name="dni" id="dni" placeholder="Ingrese su DNI">
+        <input class="controls" type="text" name="direccion" id="direccion" placeholder="Dirección del envío">
+        <p class="fech-pedido">¿que día necesita recibir el pedido?</p>
+        <input class="controls" type="datetime-local" name="fecha" id="fecha" placeholder="Para cuando lo necesita">
+        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones de la empresa</a></p>
+        <input class="boton" type="submit" value="Hacer Pedido">
+    </section>
+</body>
+<footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <div class="content-foo">
+                <h3>Redes Sociales</h3>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
+    </div>
+        <div class="content-foo">
+            <h3>Email</h3>
+            <p>jnahuelvega@gmail.com</p>
+        </div>
+        <div class="content-foo">
+            <h3>Ubicación</h3>
+            <p>San Andres de Giles</p>
+        </div>
+    </div>
+    <h2 class="titulo-final">&copy; Juan José vega | Juan Nahuel Vega</h2>
+</footer>
+</html>
